@@ -10,7 +10,7 @@ def findSort():
     mydoc = mycol.find().sort("nome")
     for x in mydoc:
         pprint(x)
-    pprint("Todos os usuarios cadastrados no sistema.")
+        pprint("Todos os usuarios cadastrados no sistema.")
 
 def insert(name, cpf):
     mydb = connectDB.connect()
